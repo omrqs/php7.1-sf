@@ -1,4 +1,4 @@
-FROM php:7.4-alpine
+FROM php:8.0.8-alpine
 
 RUN apk add --virtual --update --no-cache $PHPIZE_DEPS \
     openssl \
